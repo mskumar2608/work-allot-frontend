@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-
-  constructor() { }
-
   ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+
+  allotWork() {
+    // Add your allot work logic here
+    alert('Allot Work button clicked');
+  }
+
+  checkProgress() {
+    // Add your check progress logic here
+    alert('Check Progress button clicked');
   }
 
 }
